@@ -18,8 +18,8 @@ namespace ClientManagerAPI.Controllers
         }
 
         [HttpPost("create-client")]
-        public async Task<ResponseObject<Client>> CreateClientAsync([FromBody] string name)
-          => await _clientService.CreateClientAsync(name);
+        public async Task<ResponseObject<Client>> CreateClientAsync([FromBody] CreateClientDto createClientDto)
+          => await _clientService.CreateClientAsync(createClientDto.ClientName);
 
         [HttpGet("get-client-by-id/{id}")]
         public async Task<ResponseObject<Client?>> GetClientById(int id)
