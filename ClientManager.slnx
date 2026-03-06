@@ -1,6 +1,8 @@
 <Solution>
+  <Folder Name="/Solution Items/" />
   <Project Path="../BC.ClientManager.BL/BC.ClientManager.BL.csproj" />
   <Project Path="../BC.ClientManager.Test/BC.ClientManager.Test.csproj" Id="f4118740-c037-4eea-b66b-da4652b28b6e" />
+  <Project Path="../BC.ClientManagerAPI/BC.ClientManagerAPI.csproj" Id="a8b89268-6b7b-410a-b019-02e4917cea5c" />
   <Project Path="../BC.Persistence/BC.Persistence.csproj" />
   <Project Path="ClientManagerAPI.csproj" />
 </Solution>
